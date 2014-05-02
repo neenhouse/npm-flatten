@@ -1,0 +1,30 @@
+{
+  "name": "npm-flatten",
+  "version": "0.0.1",
+  "description": "Flattens node_modules hiearchy by moving lower level dependencies up.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neenhouse/npm-flatten.git"
+  },
+  "keywords": [
+    "npm",
+    "flatten",
+    "npm-flatten",
+    "dedupe",
+    "shrinkwrap"
+  ],
+  "author": "= <=>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neenhouse/npm-flatten/issues"
+  },
+  "homepage": "https://github.com/neenhouse/npm-flatten",
+  "preferGlobal":true,
+  "bin":{
+    "npm-flatten":"lib/index.js"
+  }
+}
